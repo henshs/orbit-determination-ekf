@@ -93,7 +93,7 @@ km, seconds, radians throughout. Gravitational parameters in km³/s².
 
 The derivations, code, and validation in this project were developed by the author
 in collaboration with **Claude** (Anthropic), used as a technical sounding board for
-working through the underlying mathematics and structuring the implementation. All
+working through the structuring the implementation. All
 results were independently checked (unit tests, finite-difference Jacobian
 verification, and numerical-vs-analytical cross-checks).
 
