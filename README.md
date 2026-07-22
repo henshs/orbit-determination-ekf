@@ -96,3 +96,7 @@ in collaboration with **Claude** (Anthropic), used as a technical sounding board
 working through the underlying mathematics and structuring the implementation. All
 results were independently checked (unit tests, finite-difference Jacobian
 verification, and numerical-vs-analytical cross-checks).
+
+## License
+
+This project is open-source. You are free to use, modify, and distribute it with attribution.
