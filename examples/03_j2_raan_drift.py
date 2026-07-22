@@ -1,4 +1,4 @@
-"""Demo: J2 secular RAAN drift — numerical propagation vs. analytical formula (Topic 16)."""
+"""Demo: J2 secular RAAN drift — numerical propagation vs. analytical formula."""
 import os, sys
 import numpy as np
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))

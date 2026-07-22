@@ -1,4 +1,4 @@
-"""Capstone: full EKF orbit determination (Topic 24).
+"""Capstone: full EKF orbit determination.
 
 Pipeline:
   1. Generate a truth orbit (two-body + J2) from known elements.
