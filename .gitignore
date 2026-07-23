@@ -16,7 +16,7 @@ env/
 ENV/
 
 # Generated figures / outputs
-examples/figures/
+#examples/figures/
 
 # Testing / coverage
 .pytest_cache/
