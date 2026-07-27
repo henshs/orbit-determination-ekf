@@ -9,6 +9,10 @@ The centerpiece is a full orbit-determination pipeline with rigorous **filter
 consistency validation** (NEES / NIS / innovation whiteness) — the piece that turns
 "a filter that runs" into "a filter you can prove works."
 
+> **Companion project:** [orbit-determination-ekf](https://github.com/henshs/orbit-determination-ekf)
+> — the translational half of the same GNC problem: spacecraft orbit determination
+> from noisy ground-station tracking using an Extended Kalman Filter.
+
 ## Highlights
 
 - Two-body + **J2 oblateness** + **atmospheric drag** force model
