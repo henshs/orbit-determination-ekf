@@ -68,15 +68,18 @@ python tests/test_all.py                        # or:  pytest -q
 `examples/ekf_orbit_determination.py` generates a truth orbit (two-body + J2),
 simulates noisy range/range-rate from a 4-station network (only when each station
 sees the satellite above its elevation mask), and runs the EKF from a ~1 km a-priori
-error. Output (`examples/figures/`):
+error.
 
-- **Convergence plot** — position error collapses from tens of km to ~100 m during
-  tracking passes; the 3σ envelope grows between passes and shrinks during them.
-- **NIS plot** — normalized innovation squared scatters around its expected value
-  (m = 2) inside the 95% χ² band, confirming the filter is statistically consistent.
+![EKF orbit determination: convergence and NIS consistency](examples/figures/ekf_orbit_determination.png)
+
+- **Convergence (top)** — position error collapses from tens of km to ~100 m during
+  tracking passes (shaded); the 3σ envelope grows between passes and shrinks during them.
+- **NIS consistency (bottom)** — normalized innovation squared scatters around its
+  expected value (m = 2) inside the 95% χ² band, confirming the filter is
+  statistically consistent.
 
 Typical run: ~130 measurements over 6 orbits, final position error ~100 m,
-mean NIS ≈ 1.7–2.0.
+**mean NIS ≈ 1.7–2.0**.
 
 ## Validation
 
