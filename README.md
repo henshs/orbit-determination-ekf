@@ -106,4 +106,4 @@ verification, and numerical-vs-analytical cross-checks).
 
 ## License
 
-This project is open-source. You are free to use, modify, and distribute it with attribution.
+MIT. See [LICENSE](LICENSE.txt) for details.
